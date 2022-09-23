@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.3.9",
+    "@strapi/plugin-i18n": "4.3.9",
+    "@strapi/plugin-users-permissions": "4.3.9",
+    "@strapi/strapi": "4.3.9",
+    "pg": "8.6.0",
+    "strapi-plugin-ckeditor5": "^2.1.1-rc.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f3ec1b94-82cd-408e-b95d-17abfcd200f7"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
